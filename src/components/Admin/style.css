@@ -1,0 +1,35 @@
+.admin {
+    padding-bottom: 100px;
+}
+
+.admin .h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.admin .h4 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.admin .slick-slide .phonepreview {
+    /*max-width: 19%;*/
+    /*float: left;*/
+    margin-right: 1%;
+    /*margin-bottom: 1%;*/
+}
+
+.admin .add-item {
+    display: inline-block;
+    text-decoration: none;
+    color: #FF5640;
+    border: 2px solid #FF5640;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+}

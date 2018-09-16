@@ -1,0 +1,75 @@
+.phoneinfo {
+
+}
+
+.phoneinfo .phone-image {
+    float: left;
+    max-width: 60%;
+}
+
+.phoneinfo .phone-image img {
+    max-width: calc(40% - 15px);
+    float: left;
+    margin-right: 15px;
+    width: 1200px;
+}
+
+.phoneinfo .right-phone-info {
+    float: right;
+    text-align: right;
+}
+
+.phoneinfo .phone-name {
+    font-size: 58px;
+}
+
+.phoneinfo .phone-price {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.phoneinfo .add-to-cart {
+    background: #FF5640;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.phoneinfo .back {
+    background: #38B2CE;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.phoneinfo .top-info {
+    padding-bottom: 40px;
+}
+
+.phoneinfo .characteristics {
+    font-size: 36px;
+}
+
+.phoneinfo .characteristics .characteristics-list {
+    list-style-type: none;
+}
+
+.phoneinfo .characteristics .characteristics-list li {
+    font-size: 16px;
+}
+
+.phoneinfo .characteristics .characteristics-list li span:first-child {
+    position: relative;
+}
+
+.phoneinfo .characteristics .characteristics-list li span:last-child {
+    float: right;
+}

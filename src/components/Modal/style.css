@@ -1,0 +1,45 @@
+.overflow {
+    position: absolute;
+    width: 100vw;
+    height: 1000%;
+    display: block;
+    top: 0vh;
+    left: 0;
+    background-color: rgba(0,0,0, .9);
+}
+
+.modal {
+    padding: 40px 70px;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+    top: calc(50% - (40% / 2));
+    left: calc(50% - (50% / 2));
+    z-index: 100;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.modal .modal-close-button {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    color: #FF5640;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #FF5640;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.modal .modal-close-button span{
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    transform: scale(1.2, 1);
+}

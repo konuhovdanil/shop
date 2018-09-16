@@ -1,0 +1,39 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "image": "IphoneImage",
+      "name": "Iphone",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "image": "SamsungImage",
+      "name": "Samsung",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "image": "GoogleImage",
+      "name": "Google",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "image": "NokiaImage",
+      "name": "Nokia",
+      "price": 150
+    },
+    {
+      "id": 5,
+      "image": "XiaomiImage",
+      "name": "Xiaomi",
+      "price": 200
+    }
+  ],
+  "filter": "ALL",
+  "totalGoods": 0,
+  "addedPhones": [],
+  "checkPhoneInfo": {},
+  "isModalOpen": false
+}

@@ -1,0 +1,59 @@
+.cartitem {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ff5640;
+    color: #ff5640;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cartitem > div {
+    display: flex;
+    justify-content: center;
+}
+
+.cartitem .phone-image {
+    width: 20%;
+    height: 80%;
+}
+
+.cartitem .phone-image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartitem .phone-name {
+    width: 20%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cartitem .phone-price {
+    font-weight: bold;
+    font-size: 22px;
+    width: 20%;
+}
+
+.cartitem .phone-count {
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+}
+
+.cartitem .remove-item {
+    width: 20%;
+}
+
+.cartitem .remove-item .remove-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 36px;
+    border: 2px solid #ff5640;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    color: #ff5640;
+}

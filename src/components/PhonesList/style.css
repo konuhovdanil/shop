@@ -1,0 +1,12 @@
+.phoneslist {
+    float: left;
+    width: 80%;
+    margin-left: 2%;
+}
+
+.phoneslist > .phonepreview {
+    width: 19%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}

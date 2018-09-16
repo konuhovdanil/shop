@@ -1,0 +1,29 @@
+.cart {
+    padding-bottom: 5px;
+}
+
+.cart .h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.cart .cart-buttons {
+    float: right;
+}
+
+.items {
+    margin-left: 2%;
+    float: right;
+    width: 80%;
+}
+
+.cart .buy-items {
+    background: #FF5640;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
